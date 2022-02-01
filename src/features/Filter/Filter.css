@@ -1,0 +1,21 @@
+.filter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Change different icons in the future */
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
