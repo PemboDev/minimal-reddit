@@ -5,19 +5,24 @@ html {
   margin-right: 100px;
 }
 
-.header { 
-  font-size: larger;
-  border: 1px solid black;
-  text-align: center;
-  height: 50px;
+.name-bar {
+  display: flex;
   margin-bottom: 20px;
+  justify-content: center;
+}
+
+.icon { 
+  height: 40px;
+  width: 40px;
+  padding: 19px;
+}
 
   /* FINAL FEATURES
     -- NO BORDER
     -- Should be visible when scrolling
     -- Slightly transparent maybe?
   */
-}
+
 
 /* Main section */
 
