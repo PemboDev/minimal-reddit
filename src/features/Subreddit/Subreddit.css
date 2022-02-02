@@ -1,0 +1,12 @@
+.header {
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.subreddit {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    min-height: 50px;
+}
