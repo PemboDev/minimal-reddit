@@ -1,8 +1,12 @@
 import React from 'react';
+import Filter from './features/Filter/Filter';
+import Content from './features/Content/Content';
+import Subreddit from './features/Subreddit/Subreddit';
+
 import { FaRedditSquare } from 'react-icons/fa';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div>
       <header>
@@ -14,13 +18,16 @@ function App() {
 
       <main>
         <div className="main-content">
-          <div className="filter">Filter </div>
-          <div className="content">Content</div>
+          <Filter />
+          
+          <Content />
         </div>
 
-        <aside>Subreddit</aside> 
-
+        <aside>
+          <Subreddit />
+        </aside> 
       </main>
+
     </div>
   );
 }
